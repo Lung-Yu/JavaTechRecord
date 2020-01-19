@@ -3,9 +3,9 @@
 簡易實作 Java 實用技巧。
 
 1. [重新定向 Output Stream 實現程式記錄檔(log.txt) ](./src/RedirectOutput/RedirectOutputStream.java)
-2. 字元與Unicode碼的轉換
-3. 中文字與區域碼的轉換
-4. 計算幾何圖形面積 (物件繼承應用案例)
+2. [字元與Unicode碼的轉換](./src/Word2Unicode/ToUnicode.java)
+3. [中文字與區域碼的轉換](./src/Word2BlockCode/Word2BlockCode.java)
+4. [計算幾何圖形面積 (物件繼承應用案例)](./src/CalcShape/)
 5. 序列化與物件複製
 6. 物件Clone效能比較
 7. transient 保護資料不被Clone
