@@ -26,7 +26,7 @@
 ## Reflection
 1. [檢視類別成員資訊](./src/LookClassMember/ClassViewer.java)
 2. [按繼承層次對類別排序](./src/ClassOderby/)
-3. [動態修改類別中private屬性](./DynamicSettingPrivate/)
+3. [動態修改類別中private屬性](./src/DynamicSettingPrivate/)
 
 ## Enum
 1. [檢視列舉的定義](./src/EnumViewer/)
