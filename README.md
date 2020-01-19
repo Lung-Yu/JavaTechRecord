@@ -14,6 +14,7 @@
 2. [序列化與物件複製](./src/SerializeClone/)
 3. [物件Clone效能比較](./src/DeeplySerializeClone/)
 4. [transient 保護資料不被Clone](./src/TransientExample/)
+5. [transient 各個屬性預設值實驗](./src/TransientFields/Fields.java)
 
 ## Thread
 1. [檢視執行續的執行狀態](./src/ViewThreadStatus/)
@@ -32,6 +33,5 @@
 2. [列舉基本特性](./src/EnumWork/)
 
 ## Common Classes
-18. [監視JVM記憶體狀態](./src/JVMMemoryViewer)
-18. [螢幕截圖](./TakePicture/TakePicture.java)
-19. [Fields](./src/TransientFields/Fields.java)
+1. [監視JVM記憶體狀態](./src/JVMMemoryViewer)
+2. [螢幕截圖](./TakePicture/TakePicture.java)
