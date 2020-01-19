@@ -8,7 +8,7 @@ import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
 public class Employee implements Serializable{
-	private static final long serialVersionUID = 3049633059823371192L;
+	private static final long serialVersionUID = 9016173117732512355L;
 	private String name;
 	private int age;
 	

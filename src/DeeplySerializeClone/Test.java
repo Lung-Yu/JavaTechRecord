@@ -5,13 +5,13 @@ import java.util.List;
 
 public class Test {
 	public static void main(String[] args) {
-		final int CLONE_TIME = 10000000;
+		final int CLONE_TIME = 100000;
 		long currentTime = 0;
 		List<Worker> workers = new ArrayList<Worker>();
 		List<Employee> employees = new ArrayList<Employee>();
 		
 		Worker worker = new Worker("worker", 16);
-		Employee employee = new Employee("employee", 22);
+		Employee employee = new Employee("employee", 18);
 	
 		currentTime = System.currentTimeMillis();
 		for(int i=0;i<CLONE_TIME;i++)

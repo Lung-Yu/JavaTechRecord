@@ -7,9 +7,6 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
-import DeeplySerializeClone.Employee;
-import DeeplySerializeClone.Worker;
-
 public class Login implements Serializable{
 //public class Login implements Cloneable{
 	private static final long serialVerionUID = 12855161761717331L;
