@@ -13,9 +13,9 @@ public class RedirectOutputStream {
 			System.setOut(ps);
 			
 			int age = 18;
-			System.out.println("¦~ÄÖÅÜ¼Æ¦¨¥\©w¸q¬° ¡Aªì©l­È¬°18");
-			String sexString = "¤k";
-			System.out.println("©Ê§OÅÜ¼Æ¦¨¥\©w¸q¬° ¡Aªì©l­È¬°¤k");
+			System.out.println("å¹´é½¡è®Šæ•¸æˆåŠŸå®šç¾©ç‚º ï¼Œåˆå§‹å€¼ç‚º18");
+			String sexString = "å¥³";
+			System.out.println("æ€§åˆ¥è®Šæ•¸æˆåŠŸå®šç¾©ç‚º ï¼Œåˆå§‹å€¼ç‚ºå¥³");
 			
 			
 		} catch (FileNotFoundException e) {

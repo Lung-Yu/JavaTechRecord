@@ -15,7 +15,7 @@ public class Address implements Serializable{
 	@Override
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
-		sb.append("°ê®a:" + stateString);
+		sb.append("åœ‹å®¶:" + stateString);
 		sb.append(" " + cityString);
 		return sb.toString();
 	}

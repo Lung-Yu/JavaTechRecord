@@ -19,7 +19,7 @@ public class ThreadList {
 		Thread[] threads = new Thread[group.activeCount()];
 		int count = group.enumerate(threads,false);
 		for(int i=0;i<count;i++) 
-			threaList.add(group.getName() + " °õ¦æÄò²Õ : " + threads[i].getName()); 
+			threaList.add(group.getName() + " åŸ·è¡ŒçºŒçµ„ : " + threads[i].getName()); 
 		
 		return threaList;
 	}

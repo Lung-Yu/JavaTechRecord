@@ -5,15 +5,15 @@ import static java.lang.System.out;
 public class Test {
 	public static void main(String[] args) {
 		
-		out.println("½Æ»s«e  : ");
-		Address address = new Address("¥xÆW", "¥x«n");
-		Employee employee1 = new Employee("OO¬ì§Ş", 18, address);
-		out.println("­û¤u1¸ê°T : ");
+		out.println("è¤‡è£½å‰  : ");
+		Address address = new Address("å°ç£", "å°å—");
+		Employee employee1 = new Employee("OOç§‘æŠ€", 18, address);
+		out.println("å“¡å·¥1è³‡è¨Š : ");
 		out.println(employee1);
 		
-		out.println("½Æ»s«á : ");
+		out.println("è¤‡è£½å¾Œ : ");
 		Employee employee2 = employee1.clone();
-		out.println("­û¤u2¸ê°T : ");
+		out.println("å“¡å·¥2è³‡è¨Š : ");
 		out.println(employee2);
 	}
 }

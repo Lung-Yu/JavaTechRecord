@@ -24,9 +24,9 @@ public class Employee implements Cloneable,Serializable{
 		public String toString() {
 		// TODO Auto-generated method stub
 			StringBuilder sb = new StringBuilder();
-			sb.append("©m¦W  : " + this.nameString);
-			sb.append("¦~ÄÖ : " + this.age);
-			sb.append("¦a§} : " + address );
+			sb.append("å§“å  : " + this.nameString);
+			sb.append("å¹´é½¡ : " + this.age);
+			sb.append("åœ°å€ : " + address );
 			return address.toString();
 		}
 		

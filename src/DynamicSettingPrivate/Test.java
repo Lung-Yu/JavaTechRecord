@@ -11,31 +11,31 @@ public class Test {
 		
 		try {
 			Field id = clazz.getDeclaredField("id");
-			System.out.println("³]©w«eªº id = " + student.getId());
+			System.out.println("è¨­å®šå‰çš„ id = " + student.getId());
 			id.setAccessible(true);
 			id.setInt(student, 10);
-			System.out.println("³]©w«áªº id = " + student.getId());
+			System.out.println("è¨­å®šå¾Œçš„ id = " + student.getId());
 			System.out.println();
 			
 			Field name = clazz.getDeclaredField("name");
-			System.out.println("³]©w«eªº name = " + student.getName());
+			System.out.println("è¨­å®šå‰çš„ name = " + student.getName());
 			name.setAccessible(true);
 			name.set(student, "haha");
-			System.out.println("³]©w«áªº name = " + student.getName());
+			System.out.println("è¨­å®šå¾Œçš„ name = " + student.getName());
 			System.out.println();
 			
 			Field male = clazz.getDeclaredField("male");
-			System.out.println("³]©w«eªº male = " + student.isMale());
+			System.out.println("è¨­å®šå‰çš„ male = " + student.isMale());
 			male.setAccessible(true);
 			male.setBoolean(student, true);
-			System.out.println("³]©w«áªº male = " + student.isMale());
+			System.out.println("è¨­å®šå¾Œçš„ male = " + student.isMale());
 			System.out.println();
 			
 			Field account = clazz.getDeclaredField("account");
-			System.out.println("³]©w«eªº account = " + student.getAccount());
+			System.out.println("è¨­å®šå‰çš„ account = " + student.getAccount());
 			account.setAccessible(true);
 			account.setDouble(student, 148.24);
-			System.out.println("³]©w«áªº account = " + student.getAccount());
+			System.out.println("è¨­å®šå¾Œçš„ account = " + student.getAccount());
 			System.out.println();
 		} catch (NoSuchFieldException | SecurityException e) {
 			// TODO Auto-generated catch block

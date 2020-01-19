@@ -9,7 +9,7 @@ public class Reflection {
 		// TODO Auto-generated method stub
 		Class<Position> enumClass = Position.class;
 		String modifierString = Modifier.toString(enumClass.getModifiers());
-		System.out.println("Enum «¬ºA­×¹¢²Å¸¹  :" + modifierString);
+		System.out.println("Enum åž‹æ…‹ä¿®é£¾ç¬¦è™Ÿ  :" + modifierString);
 		System.out.println("enum super class : "+ enumClass.getSuperclass());
 		System.out.println("enum method define by yourself:");
 		for(Method method : enumClass.getDeclaredMethods())

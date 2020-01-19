@@ -10,20 +10,20 @@ public class ThreadPoolTest {
 		
 		Runtime runtime = Runtime.getRuntime();
 		
-		runtime.gc();	//°õ¦æ©U§£¦^¦¬¾¹¡A¥i¥H´î¤Ö»~®t
+		runtime.gc();	//åŸ·è¡Œåƒåœ¾å›æ”¶å™¨ï¼Œå¯ä»¥æ¸›å°‘èª¤å·®
 		long freeMemory = runtime.freeMemory();
 		long currentTime = System.currentTimeMillis();
 		for(int i=0;i<THREAD_COUNT;i++)	new Thread(new TempThread()).start();
-		System.out.println("«Ø¥ß "+THREAD_COUNT+"­Ó°õ¦æºü¡A©Ò¦û¥Î°O¾ĞÅé \t" + (freeMemory - runtime.freeMemory()) + " bits");
-		System.out.println("«Ø¥ß "+THREAD_COUNT+"­Ó°õ¦æºü¡A©Ò®ø¯Ó®É¶¡\t" + (System.currentTimeMillis() - currentTime) + " ms");
+		System.out.println("å»ºç«‹ "+THREAD_COUNT+"å€‹åŸ·è¡Œç·’ï¼Œæ‰€ä½”ç”¨è¨˜æ†¶é«” \t" + (freeMemory - runtime.freeMemory()) + " bits");
+		System.out.println("å»ºç«‹ "+THREAD_COUNT+"å€‹åŸ·è¡Œç·’ï¼Œæ‰€æ¶ˆè€—æ™‚é–“\t" + (System.currentTimeMillis() - currentTime) + " ms");
 		
 		runtime.gc();
 		freeMemory = runtime.freeMemory();
 		currentTime = System.currentTimeMillis();
 		ExecutorService executorService = Executors.newFixedThreadPool(2);
 		for(int i=0;i<THREAD_COUNT;i++)	executorService.submit(new TempThread());
-		System.out.println("POOL "+THREAD_COUNT+"­Ó°õ¦æºü¡A©Ò¦û¥Î°O¾ĞÅé \t" + (freeMemory - runtime.freeMemory())+ " bits");
-		System.out.println("POOL "+THREAD_COUNT+"­Ó°õ¦æºü¡A©Ò®ø¯Ó®É¶¡\t" + (System.currentTimeMillis() - currentTime) + " ms");
+		System.out.println("POOL "+THREAD_COUNT+"å€‹åŸ·è¡Œç·’ï¼Œæ‰€ä½”ç”¨è¨˜æ†¶é«” \t" + (freeMemory - runtime.freeMemory())+ " bits");
+		System.out.println("POOL "+THREAD_COUNT+"å€‹åŸ·è¡Œç·’ï¼Œæ‰€æ¶ˆè€—æ™‚é–“\t" + (System.currentTimeMillis() - currentTime) + " ms");
 		
 		executorService.shutdownNow();
 	}

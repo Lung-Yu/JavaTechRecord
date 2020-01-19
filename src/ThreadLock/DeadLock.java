@@ -19,9 +19,9 @@ public class DeadLock implements Runnable{
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
-				System.out.println("¶i¤J¦P¨B°Ï¶ô obj1 ·Ç³Æ¶i¤J obj2");
+				System.out.println("é€²å…¥åŒæ­¥å€å¡Š obj1 æº–å‚™é€²å…¥ obj2");
 				synchronized (obj2) {
-					System.out.println(threadName + " ¤w¸g¶i¤J¦P¨B°Ï¶ô obj2");
+					System.out.println(threadName + " å·²ç¶“é€²å…¥åŒæ­¥å€å¡Š obj2");
 				}
 			}
 		}else {
@@ -32,9 +32,9 @@ public class DeadLock implements Runnable{
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
-				System.out.println("¶i¤J¦P¨B°Ï¶ô obj2 ·Ç³Æ¶i¤J obj1");
+				System.out.println("é€²å…¥åŒæ­¥å€å¡Š obj2 æº–å‚™é€²å…¥ obj1");
 				synchronized (obj1) {
-					System.out.println(threadName + " ¤w¸g¶i¤J¦P¨B°Ï¶ô obj1");
+					System.out.println(threadName + " å·²ç¶“é€²å…¥åŒæ­¥å€å¡Š obj1");
 				}
 			}
 		}
