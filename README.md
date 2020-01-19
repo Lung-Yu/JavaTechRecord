@@ -2,6 +2,7 @@
 
 簡易實作 Java 實用技巧。
 
+<<<<<<< HEAD
 1. [重新定向 Output Stream 實現程式記錄檔(log.txt) ](./src/RedirectOutput/RedirectOutputStream.java)
 2. [字元與Unicode碼的轉換](./src/Word2Unicode/ToUnicode.java)
 3. [中文字與區域碼的轉換](./src/Word2BlockCode/Word2BlockCode.java)
@@ -21,3 +22,7 @@
 17. [列舉基本特性](./src/EnumWork/)
 18. [監視JVM記憶體狀態](./src/JVMMemoryViewer)
 18. [螢幕截圖](./TakePicture/TakePicture.java)
+19. [Fields](./src/TransientFields/Fields.java)
+=======
+
+>>>>>>> develop
