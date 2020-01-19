@@ -34,4 +34,4 @@
 
 ## Common Classes
 1. [監視JVM記憶體狀態](./src/JVMMemoryViewer)
-2. [螢幕截圖](./TakePicture/TakePicture.java)
+2. [螢幕截圖](./src/TakePicture/TakePicture.java)
