@@ -4,7 +4,7 @@ import static java.lang.System.out;
 
 public class Word2BlockCode {
 	public static void main(String[] args) {
-		out.println(toBlockCode("§Ú"));
+		out.println(toBlockCode("æˆ‘"));
 	}
 	
 	private static String toBlockCode(String textString) {

@@ -15,9 +15,9 @@ public class Momory implements Runnable{
 			int total = (int) Runtime.getRuntime().totalMemory();
 			int status = free * 100 / total;
 			
-			System.out.println("¥i¥Î°O¾ĞÅé\t:\t" + free);
-			System.out.println("Á`°O¾ĞÅé¶q\t:\t" + total);
-			System.out.println("°O¾ĞÅé¨Ï¥Î²v\t:\t" + status + "%");
+			System.out.println("å¯ç”¨è¨˜æ†¶é«”\t:\t" + free);
+			System.out.println("ç¸½è¨˜æ†¶é«”é‡\t:\t" + total);
+			System.out.println("è¨˜æ†¶é«”ä½¿ç”¨ç‡\t:\t" + status + "%");
 			System.out.println();
 			try {
 				Thread.sleep(1000);

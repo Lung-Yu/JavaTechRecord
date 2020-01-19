@@ -8,19 +8,19 @@ public class ClassViewer {
 
 	public static void main(String[] args) throws ClassNotFoundException {
 		Class<?> clazz = Class.forName("java.util.ArrayList");
-		System.out.println("Ãş§Oªº¼Ğ·Ç¦WºÙ : " +clazz.getCanonicalName() );
+		System.out.println("é¡åˆ¥çš„æ¨™æº–åç¨± : " +clazz.getCanonicalName() );
 		
-		System.out.println("Ãş§O «Øºc¤èªk");
+		System.out.println("é¡åˆ¥ å»ºæ§‹æ–¹æ³•");
 		for(Constructor constructor : clazz.getConstructors())
 			System.out.println("\t" + constructor);
 		System.out.println();
 		
-		System.out.println("Ãş§O«DÄ~©Ó¤§°Ï°ìÅÜ¼Æ");
+		System.out.println("é¡åˆ¥éç¹¼æ‰¿ä¹‹å€åŸŸè®Šæ•¸");
 		for(Field field : clazz.getDeclaredFields())
 			System.out.println("\t" + field);
 		System.out.println();
 		
-		System.out.println("Ãş§O«DÄ~©Ó¤§¤èªk¦WºÙ");
+		System.out.println("é¡åˆ¥éç¹¼æ‰¿ä¹‹æ–¹æ³•åç¨±");
 		for(Method method : clazz.getDeclaredMethods())
 			System.out.println("\t" + method);
 		System.out.println();

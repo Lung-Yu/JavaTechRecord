@@ -5,7 +5,7 @@ import static java.lang.System.out;
 public class ToUnicode {
 	public static void main(String[] args) {
 		
-		String codeString = toCode("¦n");
+		String codeString = toCode("å¥½");
 		out.println(codeString);
 		out.println(toChar(Long.parseLong(codeString)));
 	}

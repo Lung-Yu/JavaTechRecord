@@ -11,7 +11,7 @@ public class Timer implements Runnable{
 		while(true) {
 			if((System.currentTimeMillis() - currentTime) > processTime) {
 				processTime = System.currentTimeMillis() - currentTime;
-				System.out.println("µ{¦¡°õ¦æ®É¶¡ : " + processTime);
+				System.out.println("ç¨‹å¼åŸ·è¡Œæ™‚é–“ : " + processTime);
 			}
 		}
 	}

@@ -25,8 +25,8 @@ public class Login implements Serializable{
 	public String toString() {
 		// TODO Auto-generated method stub
 		StringBuilder sb = new StringBuilder();
-		sb.append("�ϥΪ̦W�� : " + username);
-		sb.append("�K�X : " + password);
+		sb.append("使用者名稱 : " + username);
+		sb.append("密碼 : " + password);
 		return sb.toString();
 	}
 	

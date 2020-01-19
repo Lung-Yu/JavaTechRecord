@@ -15,7 +15,7 @@ public class ThreadPriorityTest {
 	private static void showThreadsPriority() {
 		Thread[] threads = getThreads();
 		
-		System.out.println("*****************°õ¦æÄò*****************");
+		System.out.println("*****************åŸ·è¡ŒçºŒ*****************");
 		System.out.println("ID\tName\tPriority");
 		for(Thread thread : threads)
 			System.out.println(thread.getId() + "\t" + thread.getName() + "\t" + thread.getPriority());
@@ -35,15 +35,15 @@ public class ThreadPriorityTest {
 		Scanner scanner = new Scanner(System.in);
 		showThreadsPriority();
 		
-		System.out.print("½Ğ¿é¤J±ı­×§ï¤§°õ¦æÄò ID ( ­YÂ÷¶}µ{¦¡½Ğ¿é¤J -1 )");
+		System.out.print("è«‹è¼¸å…¥æ¬²ä¿®æ”¹ä¹‹åŸ·è¡ŒçºŒ ID ( è‹¥é›¢é–‹ç¨‹å¼è«‹è¼¸å…¥ -1 )");
 		int id = scanner.nextInt();
 		while(id > 0) {
-			System.out.print("½Ğ¿é¤J­×§ïªºÀu¥ı¶¶§Ç(1~10)");
+			System.out.print("è«‹è¼¸å…¥ä¿®æ”¹çš„å„ªå…ˆé †åº(1~10)");
 			int priorityValue = scanner.nextInt();
 			modifyPriority(id, priorityValue);
 			
 			showThreadsPriority();	
-			System.out.println("½Ğ¿é¤J±ı­×§ï¤§°õ¦æÄò ID ");
+			System.out.println("è«‹è¼¸å…¥æ¬²ä¿®æ”¹ä¹‹åŸ·è¡ŒçºŒ ID ");
 			id = scanner.nextInt();
 		}
 		

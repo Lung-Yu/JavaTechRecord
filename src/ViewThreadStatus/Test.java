@@ -5,17 +5,17 @@ public class Test {
 		ThreadState state = new ThreadState();
 		Thread thread = new Thread(state);
 		
-		System.out.println("·s¼W°õ¦æÄò  : " + thread.getState());
+		System.out.println("æ–°å¢åŸ·è¡ŒçºŒ  : " + thread.getState());
 		thread.start();
-		System.out.println("±Ò°Ê°õ¦æÄò  : " + thread.getState());
+		System.out.println("å•Ÿå‹•åŸ·è¡ŒçºŒ  : " + thread.getState());
 		Thread.sleep(100);
-		System.out.println("­p®Éµ¥«İ  : " + thread.getState());
+		System.out.println("è¨ˆæ™‚ç­‰å¾…  : " + thread.getState());
 		Thread.sleep(1000);
-		System.out.println("µ¥«İ¤¤ªº°õ¦æÄò  : " + thread.getState());
+		System.out.println("ç­‰å¾…ä¸­çš„åŸ·è¡ŒçºŒ  : " + thread.getState());
 		state.notifyNow();
-		System.out.println("³ê¿ô°õ¦æÄò  : " + thread.getState());
+		System.out.println("å–šé†’åŸ·è¡ŒçºŒ  : " + thread.getState());
 		Thread.sleep(1000);
-		System.out.println("¤¤¤î°õ¦æÄò  : " + thread.getState());
+		System.out.println("ä¸­æ­¢åŸ·è¡ŒçºŒ  : " + thread.getState());
 		
 	}
 }

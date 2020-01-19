@@ -4,11 +4,11 @@ public class Test {
 	public static void main(String[] args) {
 		
 		Circle circle = new Circle(1);
-		System.out.println("¹Ï§Îªº¦WºÙ¬O : " + circle.getName());
-		System.out.println("¹Ï§Îªº­±¿n¬O : " + circle.getArea());
+		System.out.println("åœ–å½¢çš„åç¨±æ˜¯ : " + circle.getName());
+		System.out.println("åœ–å½¢çš„é¢ç©æ˜¯ : " + circle.getArea());
 		
 		Rectangle rectangle = new Rectangle(2, 4);
-		System.out.println("¹Ï§Îªº¦WºÙ¬O : " + rectangle.getName());
-		System.out.println("¹Ï§Îªº­±¿n¬O : " + rectangle.getArea());
+		System.out.println("åœ–å½¢çš„åç¨±æ˜¯ : " + rectangle.getName());
+		System.out.println("åœ–å½¢çš„é¢ç©æ˜¯ : " + rectangle.getArea());
 	}
 }

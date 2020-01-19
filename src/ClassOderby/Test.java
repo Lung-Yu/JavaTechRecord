@@ -8,11 +8,11 @@ import javax.swing.JPanel;
 public class Test {
 	public static void main(String[] args) {
 		TreeSet<Class<?>> treeSet = new TreeSet<Class<?>>(new ClassComparator());
-		System.out.println("¦V¾ğ¶°¤¤¼W¥[  JPanel.class");
+		System.out.println("å‘æ¨¹é›†ä¸­å¢åŠ   JPanel.class");
 		treeSet.add(JPanel.class);
-		System.out.println("¦V¾ğ¶°¤¤¼W¥[  JComponent.class");
+		System.out.println("å‘æ¨¹é›†ä¸­å¢åŠ    JComponent.class");
 		treeSet.add(JComponent.class);
-		System.out.println("Àò±o¾ğ¶°¦Xªº³Ì«á¤@­Ó¤¸¯À");
+		System.out.println("ç²å¾—æ¨¹é›†åˆçš„æœ€å¾Œä¸€å€‹å…ƒç´ ");
 		System.out.println(treeSet.last());
 		
 		System.out.println();

@@ -16,13 +16,13 @@ public class Test {
 		currentTime = System.currentTimeMillis();
 		for(int i=0;i<CLONE_TIME;i++)
 			workers.add(worker.clone());
-		System.out.println("�ϥνƻs���k��{�ƻs�үӶO���ɶ� : ");
+		System.out.println("使用複製域方法實現複製所耗費的時間 : ");
 		System.out.println(System.currentTimeMillis() - currentTime + " ms");
 		
 		currentTime = System.currentTimeMillis();
 		for(int i=0;i<CLONE_TIME;i++)
 			employees.add(employee.clone());
-		System.out.println("�ϥΧǦC�Ƥ�k��{�ƻs�үӶO���ɶ� : ");
+		System.out.println("使用序列化方法實現複製所耗費的時間 : ");
 		System.out.println(System.currentTimeMillis() - currentTime + " ms");
 	
 	}

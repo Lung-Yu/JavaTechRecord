@@ -3,7 +3,7 @@ package TransientExample;
 public class Test {
 	public static void main(String[] args) {
 		Login login = new Login("Lung yu tsai", "tygr123456");
-		System.out.println("¿é¥X­ì©l¸ê°T");
+		System.out.println("è¼¸å‡ºåŽŸå§‹è³‡è¨Š");
 		System.out.println(login.toString());
 		
 		Login login2 = login.clone();

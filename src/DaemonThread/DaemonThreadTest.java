@@ -7,8 +7,8 @@ public class DaemonThreadTest {
 		Thread userThread = new Thread(new Worker());
 		Thread daemonThread = new Thread(new Timer());
 		
-		/*³Q³]©w¬°Daemonªº°õ¦æÄò¡A·|³QÀH®É¤¤Â_¡A
-		 * ¦]¦¹½Ğ¤Å±N¨Ï¥Î¨ì»İÄÀ©ñ¤§¸ê·½(¦pInput/Ouput Stream ¡B DB Connector)ªº°õ¦æÄò ³]©w¬° Daemon = True. */
+		/*è¢«è¨­å®šç‚ºDaemonçš„åŸ·è¡ŒçºŒï¼Œæœƒè¢«éš¨æ™‚ä¸­æ–·ï¼Œ
+		 * å› æ­¤è«‹å‹¿å°‡ä½¿ç”¨åˆ°éœ€é‡‹æ”¾ä¹‹è³‡æº(å¦‚Input/Ouput Stream ã€ DB Connector)çš„åŸ·è¡ŒçºŒ è¨­å®šç‚º Daemon = True. */
 		daemonThread.setDaemon(true);
 		userThread.start();
 		daemonThread.start();

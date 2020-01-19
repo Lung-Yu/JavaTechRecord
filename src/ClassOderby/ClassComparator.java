@@ -14,7 +14,7 @@ public class ClassComparator implements Comparator<Class<?>>{
 		else if (o2.isAssignableFrom(o1)) {
 			return 1;
 		}else
-			throw new IllegalArgumentException("¨â­ÓÃþ§O¤§¶¡¨S¦³Ãö«Y");
+			throw new IllegalArgumentException("å…©å€‹é¡žåˆ¥ä¹‹é–“æ²’æœ‰é—œä¿‚");
 	}
 	
 }

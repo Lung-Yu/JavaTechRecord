@@ -13,8 +13,8 @@ public class Worker implements Cloneable{
 	public String toString() {
 		// TODO Auto-generated method stub
 		StringBuilder sb = new StringBuilder();
-		sb.append("©m¦W : " + name + " ");
-		sb.append("¦~ÄÖ : " + age + "\n");
+		sb.append("å§“å : " + name + " ");
+		sb.append("å¹´é½¡ : " + age + "\n");
 		return sb.toString();
 	}
 	
