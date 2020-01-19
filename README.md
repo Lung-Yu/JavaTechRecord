@@ -25,4 +25,3 @@
 19. [Fields](./src/TransientFields/Fields.java)
 =======
 
->>>>>>> develop
