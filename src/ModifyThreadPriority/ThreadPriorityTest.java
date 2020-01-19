@@ -32,6 +32,9 @@ public class ThreadPriorityTest {
 	}
 	
 	public static void main(String[] args) {
+		
+		ThreadBuilder threadBuilder = new ThreadBuilder(10);
+		
 		Scanner scanner = new Scanner(System.in);
 		showThreadsPriority();
 		
